@@ -1,0 +1,55 @@
+{
+  "name": "jensen-huang-ai-mcp",
+  "version": "1.0.0",
+  "description": "Jensen Huang AI Model Context Protocol Server for Autonomous Accelerated Computing Infrastructure, CUDA Exascale Simulation, Blackwell GPU Orchestration & Sovereign Physical AI Protocol",
+  "tools": [
+    {
+      "name": "audit_accelerated_gpu_topology",
+      "description": "Benchmark multi-GPU cluster interconnects, NVLink bandwidth, and FP4/FP8 tensor core throughput",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "cluster_size": {
+            "type": "string"
+          },
+          "gpu_architecture": {
+            "type": "string"
+          },
+          "workload_type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "cluster_size",
+          "gpu_architecture"
+        ]
+      }
+    },
+    {
+      "name": "disburse_hardware_infrastructure_grant",
+      "description": "Trigger automated micro-escrow disbursements for verified GPU compute cluster buildouts, cryogenic silicon research, and sovereign AI factory deployments",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
